@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Exams extends StatelessWidget {
-  const Exams({super.key});
+class Teachers extends StatelessWidget {
+  const Teachers({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -42,6 +42,6 @@ class Exams extends StatelessWidget {
 
 void main() {
   runApp(const MaterialApp(
-    home: Exams(),
+    home: Teachers(),
   ));
 }
